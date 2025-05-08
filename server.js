@@ -63,7 +63,7 @@ app.use(cookieParser());
 app.use(
     cors({
         // origin: 'http://localhost:5173', // frontend link
-        origin: ["http://localhost:5173", "https://edu-nexus-cyan.vercel.app"]
+        origin: ["http://localhost:5173", "https://edu-nexus-cyan.vercel.app"],
         credentials: true
     })
 );
